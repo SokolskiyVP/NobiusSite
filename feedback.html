@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Nobius </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="img/logo.png">
+    <link rel="stylesheet" href="css/walkthrough.css">
+
+</head>
+<header>
+    <div class="header_parent">
+        <div class="wrap-logo">
+            <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+            <a class="Nobius" href="index.html">Nobius</a>
+        </div>
+        <div class="feedback">
+            <a href="feedback.html">Оставить заявку</a>
+        </div>
+    </div>
+</header>
+<body>
+<main>
+
+
+    <link rel="stylesheet" href="css/feedback.css">
+    <div id="container">
+        <h1>&bull; Свяжитесь с нами &bull;</h1>
+        <form action="send_mail.php" method="post" name="form" id="form">
+
+            <div class="name" data-title="Только русские буквы">
+                <input type="text" placeholder="Ваше имя" name="name" id="name" data-reg="^[А-ЯЁ]|[а-яё]*$"/>
+            </div>
+            <div class="email" data-title="В формате example@email.com">
+                <input type="text" placeholder="Ваш email" name="email" id="email"
+                       data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$"/>
+            </div>
+            <div class="telephone" data-title="В формате +1231231212 или 1-123-123-12-12">
+                <input type="text" placeholder="Ваш телефон" name="phone" id="phone"
+                       data-reg="^(\+)?((\d{2,3}) ?\d|\d)(([ -]?\d)|( ?(\d{2,3}) ?)){8}\d$"/>
+            </div>
+            <div class="message">
+               <input type="text" placeholder="Сообщение" name="message" id="message"/>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Отправить" id="submit_btn"/>
+            </div>
+
+        </form><!-- // End form -->
+    </div><!-- // End #container -->
+</main>
+
+<script src="https://kit.fontawesome.com/fce9a50d02.js" crossorigin="anonymous"></script>
+<script src="feedbackJS.js"></script>
+</body>
+</html>

@@ -1,0 +1,289 @@
+@media only screen and (max-width: 800px) {
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f2f3ed;
+}
+
+div.header_parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+div.header_parent .navbtn nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+div.header_parent .navbtn a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 2vh;
+    font-weight: bold;
+    transition: transform .6s ease;
+}
+
+div.header_parent img {
+    display: none;
+    visibility: hidden;
+}
+
+div.header_parent .wrap-logo {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+div.header_parent .wrap-logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    transition: transform .6s ease;
+}
+
+div.header_parent .wrap-logo .Nobius{
+    margin-left: 1.5vh;
+}
+
+div.header_parent .feedback {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.header_parent .feedback a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    transition: transform .6s ease;
+}
+
+div.header_parent a:hover {
+    color: #000000;
+    transform: scale(1.2);
+}
+
+div.header_main .header_main_text {
+    margin-top: 5%;
+    color: #29376e;
+    text-align: center;
+    font-size: 30px;
+}
+
+div.desc_left ,
+div.desc_right {
+    flex-direction: column-reverse;
+}
+
+div.desc_left p,
+div.desc_right p{
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    font-size: 25px;
+}
+
+div.desc_right .img_left,
+div.desc_left .img_right {
+    display: flex;
+    margin-left: 50%;
+    width: 100%;
+    height: 90%;
+}
+
+div.header_parent .feedback {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 2%;
+}
+
+div.header_parent .feedback a {
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    transition: transform .6s ease;
+}
+
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f2f3ed;
+}
+
+
+/* Стили для шапки */
+header {
+    background-color: #17205d;
+    padding: 20px 10px;
+}
+
+.header_parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header_parent .navbtn nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header_parent .navbtn a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 2vh;
+    font-weight: bold;
+    transition: transform .6s ease;
+}
+
+.header_parent img {
+    width: 100px;
+}
+
+.header_parent .wrap-logo {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.header_parent .wrap-logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 1vh;
+    transition: transform .6s ease;
+}
+
+.header_parent .wrap-logo .Nobius{
+    margin-left: 1.5vh;
+}
+
+.header_parent .feedback {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 2%;
+}
+
+.header_parent .feedback a {
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    transition: transform .6s ease;
+}
+
+.header_parent .wrap-logo a:hover {
+    color: #000000;
+    transform: scale(1.2);
+}
+
+.header_parent .wrap-logo img:hover {
+    color: #000000;
+    transform: scale(1);
+}
+
+.header_parent .feedback a:hover {
+    color: #000000;
+    transform: scale(1);
+}
+
+.header_main .header_main_text {
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+    color: #29376e;
+    text-align: center;
+    font-size: 60px;
+}
+
+div.desc_left {
+    display: flex;
+    justify-content: left;
+    margin-top: 5%;
+    margin-left: 3%;
+    font-size: 50px;
+}
+
+.desc_left p{
+    width: 40%;
+    display: flex;
+    justify-content: left;
+    font-size: 40px;
+}
+
+div.desc_right{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 3%;
+    font-size: 50px;
+    justify-content: right;
+}
+
+.desc_right p{
+    width: 40%;
+    display: flex;
+    margin-right: 3%;
+    justify-content: right;
+    font-size: 40px;
+}
+
+.desc_right{
+    flex-direction: row-reverse;
+}
+
+
+div.desc_left .img_right {
+
+    display: flex;
+    width: 35%;
+    height: 90%;
+    margin-left: 10%;
+
+
+}
+
+div.desc_right .img_left {
+
+    display: flex;
+    width: 35%;
+    height: 90%;
+    margin-right: 10%;
+    justify-content: right;
+
+}
